@@ -1,0 +1,13 @@
+{
+  "name": "requirejs",
+  "_release": "9727cd7e0b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9727cd7e0bf570f5fdcc94e10ac5527646181ff8"
+  },
+  "_source": "git@git.oschina.net:lirongfei/requirejs.git",
+  "_target": "*",
+  "_originalSource": "requirejs",
+  "_direct": true
+}

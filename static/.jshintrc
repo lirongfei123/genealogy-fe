@@ -1,0 +1,9 @@
+{
+  "extends": "../.jshintrc",
+  "globals": {
+    "require":false,
+    "plan":false,
+    "etpl":false,
+    "$":false
+  }
+}

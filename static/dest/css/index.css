@@ -1,0 +1,103 @@
+ html,     body {
+  width: 100%;
+  font-family: Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;
+  height: 100%;
+  overflow: hidden; }
+
+ .clearfix:before,      .clearfix:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 0px;
+  clear: both; }
+
+ header {
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #35b558; }
+   header .logo-wrap {
+    font-size: 30px; }
+
+ .inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+ .menu-list {
+  width: 1000px;
+  margin: 0 auto;
+  height: 42px;
+  border-bottom: 1px solid #e4e4e4; }
+   .menu-list .menu-item {
+    padding: 0 20px;
+    text-align: center;
+    color: #333;
+    float: left;
+    line-height: 42px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer; }
+     .menu-list .menu-item:first-child {
+      padding-left: 0px; }
+     .menu-list .menu-item.focused {
+      color: #35b558; }
+
+ .main-body {
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  margin: 0 auto;
+  width: 1000px;
+  height: calc(100% - 102px); }
+   .main-body .adduser-wrap {
+    padding-right: 20px;
+    padding-top: 20px;
+    height: 100%;
+    overflow: auto; }
+     .main-body .adduser-wrap .addparent .addinput {
+      float: left; }
+     .main-body .adduser-wrap .addparent .parents-list {
+      float: left;
+      margin-left: 10px; }
+       .main-body .adduser-wrap .addparent .parents-list .addeduser.btn:active {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none; }
+   .main-body .search-wrap {
+    padding-right: 20px;
+    padding-top: 20px;
+    overflow: auto;
+    height: 100%; }
+   .main-body .search-result {
+    padding: 20px;
+    height: 100%;
+    overflow: auto; }
+   .main-body .myhome-wrap {
+    height: 100%;
+    padding-left: 100px;
+    overflow-y: hidden; }
+   .main-body .draw-wrap {
+    height: 100%;
+    position: relative; }
+     .main-body .draw-wrap .svg-view {
+      height: 100%; }
+     .main-body .draw-wrap .view-menu {
+      position: absolute;
+      top: 20px;
+      left: -90px;
+      width: 60px;
+      margin: 0;
+      padding: 0; }
+       .main-body .draw-wrap .view-menu .menu-item {
+        margin: 10px 0;
+        list-style: none;
+        cursor: pointer; }

@@ -1,0 +1,13 @@
+{
+  "name": "sha1",
+  "_release": "6baaeb28c6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6baaeb28c6963a683bd2b049d3e4487c8c6378c4"
+  },
+  "_source": "git@git.oschina.net:lirongfei/sha1.git",
+  "_target": "*",
+  "_originalSource": "sha1",
+  "_direct": true
+}

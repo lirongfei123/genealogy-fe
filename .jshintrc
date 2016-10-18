@@ -1,0 +1,20 @@
+{
+  "bitwise": true,//禁用位运算符
+  "browser": true,//可以使用浏览器的全局变量
+  "immed": true,//被直接调用的函数必须被括号包裹
+  "newcap": true,//不能使用new F 必须使用new F()
+  "noarg": true,//禁止使用arguments.caller和 arguments.callee
+  "noempty": true,//空代码作用块
+  "nonew": true,//所有new的构造函数必须复制给一个变量
+  "trailing": true,
+  "maxlen": 200,
+  "boss": true,//避免if(a=10){} 这种代码
+  "eqnull": true,
+  "expr": true,
+  "globalstrict": false,//启动严格模式
+  "laxbreak": true,//检查不安全的折行
+  "loopfunc": true,//禁止循环内的函数
+  "sub": true,//a['b'] -> a.b
+  "undef": true,//变量未定义
+  "indent": 2
+}

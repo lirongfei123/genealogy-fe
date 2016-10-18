@@ -1,0 +1,13 @@
+{
+  "name": "jsonp",
+  "_release": "2d3e8dbe2f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2d3e8dbe2fe3bb957e06722142f8514ea987c176"
+  },
+  "_source": "git@git.oschina.net:lirongfei/jsonp.git",
+  "_target": "*",
+  "_originalSource": "jsonp",
+  "_direct": true
+}

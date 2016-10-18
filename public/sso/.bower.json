@@ -1,0 +1,18 @@
+{
+  "name": "sso",
+  "_release": "f928b45b60",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f928b45b607cb6454e11897dd41662538ce8a77d"
+  },
+  "dependencies": {
+    "jsonp":"latest",
+    "utils":"latest",
+    "cookie":"latest"
+  },
+  "_source": "git@git.oschina.net:lirongfei/sso.git",
+  "_target": "*",
+  "_originalSource": "sso",
+  "_direct": true
+}

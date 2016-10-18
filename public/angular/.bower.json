@@ -1,0 +1,13 @@
+{
+  "name": "angular",
+  "_release": "a60d134832",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a60d134832d0d23fb394362f2d918e92420659c8"
+  },
+  "_source": "git@git.oschina.net:lirongfei/angular.git",
+  "_target": "*",
+  "_originalSource": "angular",
+  "_direct": true
+}

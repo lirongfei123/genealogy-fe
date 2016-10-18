@@ -1,0 +1,13 @@
+{
+  "name": "util",
+  "_release": "bd9780ef77",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "bd9780ef777c16498c330928e79cf36227bce246"
+  },
+  "_source": "git@git.oschina.net:lirongfei/util.git",
+  "_target": "*",
+  "_originalSource": "util",
+  "_direct": true
+}

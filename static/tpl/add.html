@@ -1,0 +1,79 @@
+<!-- target:adduser -->
+<div class="adduser-wrap">
+    <form class="form-horizontal" id="add-member-form">
+        <div class="form-group addparent">
+            <label for="inputEmail3" class="col-sm-2 control-label">添加父亲</label>
+            <div class="col-sm-10 clearfix">
+                <div id="js-add-parent"></div>
+                <div class="parents-list" id="js-parents-list"></div>
+            </div>
+        </div>
+        <div class="form-group addparent">
+            <label for="inputEmail3" class="col-sm-2 control-label">添加母亲</label>
+            <div class="col-sm-10 clearfix">
+                <div id="js-add-mother"></div>
+                <div class="parents-list" id="js-mothers-list"></div>
+            </div>
+        </div>
+        <div class="form-group addparent">
+            <label for="inputEmail3" class="col-sm-2 control-label">添加配偶</label>
+            <div class="col-sm-10 clearfix">
+                <div id="js-add-spouses"></div>
+                <div class="parents-list" id="js-spouses-list"></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">姓名</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" value="${member.name}" name="name" required placeholder="姓名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">别名</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" value="${member.secondname}" name="secondname" placeholder="别名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">出生日期</label>
+            <div class="col-sm-10">
+                <input type="text" name="birthday" required value="${member.birthday}" class="form-control" id="js-chusheng-date" placeholder="生日">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">籍贯</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" value="${member.hometown}" name="hometown" required placeholder="籍贯">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">现住地</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" value="${member.currenthome}" name="currenthome" required placeholder="现住地">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">身份证号</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" value="${member.idcard}" name="idcard" placeholder="身份证号">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10" >
+                <!-- if:${member.id} -->
+                <button type="submit" class="btn btn-default">修改成员</button>
+                <!-- else -->
+                <button type="submit" class="btn btn-default">添加成员</button>
+                <!-- /if -->
+            </div>
+        </div>
+    </form>
+</div>
+<!-- target:parent-item -->
+<!-- for:${parents} as ${parent} -->
+<!-- if:${parent.real} -->
+<div class="btn addeduser inline-block btn-primary js-btn-item" js-id="${parent.id}" type="button">${parent.text} <span class="badge js-del-btn">X</span></div>
+<!-- else -->
+<div class="btn addeduser inline-block js-btn-item" js-id="${parent.id}" type="button">${parent.text} <span class="badge js-del-btn">X</span></div>
+<!-- /if -->
+<!-- /for -->

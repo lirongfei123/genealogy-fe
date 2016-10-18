@@ -1,0 +1,13 @@
+{
+  "name": "cookie",
+  "_release": "6ea625a1b2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6ea625a1b2cc2860954a73a6e6d6167cabf21a9a"
+  },
+  "_source": "git@git.oschina.net:lirongfei/cookie.git",
+  "_target": "*",
+  "_originalSource": "cookie",
+  "_direct": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ajax",
+  "_release": "afb8ab97bd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "afb8ab97bd8ebf7348f5e0e7a492ddd9025bc4df"
+  },
+  "_source": "git@git.oschina.net:lirongfei/ajax.git",
+  "_target": "*",
+  "_originalSource": "ajax",
+  "_direct": true
+}

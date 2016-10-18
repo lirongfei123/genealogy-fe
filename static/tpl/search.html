@@ -1,0 +1,44 @@
+<!-- target:advanced-search -->
+<div class="search-wrap">
+    <form class="form-horizontal" id="search-member-form">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">姓名</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="name" required placeholder="输入姓名，输入*表示对名字不做限制">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">搜索</button>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- target:search-result -->
+<div class="search-result" id="searchContainer">
+    <table class="table">
+      <thead>
+        <tr>
+          <th width="30">#</th>
+          <th>姓名</th>
+          <th width="200">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- for:${result} as ${member} -->
+        <tr>
+          <th scope="row">1</th>
+          <th>${member.name}</th>
+          <td>
+            <a href="#/index/advanced_search_result?id=${member.id}&type=parent">查看子孙</a>
+            <a href="#/index/advanced_search_result?id=${member.id}&type=liudai" style="margin-left:30px">查看六代</a>
+          </td>
+          <td>
+            <a href="#/index/adduser?id=${member.id}">编辑</a>
+            <a href="javascript:void(0)" class="delbtn" memberid=${member.id} style="margin-left:30px">删除</a>
+          </td>
+        </tr>
+        <!-- /for -->
+      </tbody>
+    </table>
+</div>

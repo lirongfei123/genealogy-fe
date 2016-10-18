@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>家门网</title>
+	<script src="public/sso/ssohead.js" appid="a09ffc3c8467fdedcbbd4bd8b8f70544"></script>
+    <link rel="stylesheet" type="text/css" href="public/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="public/pnotify/pnotify.core.css" />
+    <link rel="stylesheet" type="text/css" href="public/datepicker/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/dest/css/index.css" />
+    <script src="static/js/config.js"></script>
+    <script data-main="index" src="public/requirejs/require.js"></script>
+</head>
+
+<body default-route= "/index/myhome">
+<svg version="1.1" style="position:absolute;left:-10000px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.4</desc>
+    <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
+    <text text-anchor="middle" font-size="10px" stroke="none" fill="#000000" >
+    	<tspan dy="4" id="fontWidthHelper">朱棣</tspan>
+    </text>
+</svg>
+	<header class="header">
+		<div class="logo-wrap">
+			家门网
+		</div>
+		<div class="search-wrap">
+			<form class="form-inline" id="js-index-search">
+			  <div class="form-group">
+			    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+			    <div class="input-group">
+			      <input type="text" class="form-control" name="search" required placeholder="输入姓名">
+			    </div>
+			  	</div>
+			  	<button type="submit" class="btn btn-primary">搜索</button>
+			</form>
+		</div>
+		<div class="register-login-wrap" id="register-login-wrap">
+
+		</div>
+	</header>
+	<div class="menu-list clearfix" id="menu-list">
+		<a class="menu-item myhome" href="#/index/myhome">我的家谱</a>
+        <a class="menu-item adduser" id="menu-adduser-item" href="#/index/adduser">添加成员</a>
+		<a class="menu-item center" id="menu-center-item" href="#/index/center">个人中心</a>
+        <a class="menu-item search" id="menu-search-item" href="#/index/search">高级搜索</a>
+        <a class="menu-item search_result" id="search-result-menu-item" style="display:none;" href="#/index/search_result">搜索结果</a>
+		<a class="menu-item advanced_search_result" id="advanced-search-result" style="display:none;" href="#/index/advanced_search_result">高级搜索视图</a>
+	</div>
+	<div class="main-body" id="main-body">
+
+	</div>
+	<footer>
+
+	</footer>
+</body>
+</html>

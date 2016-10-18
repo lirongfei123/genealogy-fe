@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap",
+  "_release": "a120c78461",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a120c784611cda8204c785b8f994e9a27f9fb7a8"
+  },
+  "_source": "git@git.oschina.net:lirongfei/bootstrap.git",
+  "_target": "*",
+  "_originalSource": "bootstrap",
+  "_direct": true
+}
