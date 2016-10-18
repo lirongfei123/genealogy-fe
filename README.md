@@ -3,7 +3,7 @@
 * 系统的目的是通过树形图将一个家族的人员关系展示出来
 * 登录系统用的是自己写的第三方验证系统(sso.mlife.top)
 ## 示例截图
-![image](http://www.mlife.top/project/genealogy-fe/demo.jpg "Optional title")
+![image](http://www.mlife.top/project/genealogy-fe/demo.jpg)
 ## 测试账号
 用户名: 846952193@qq.com
 密码: test123
