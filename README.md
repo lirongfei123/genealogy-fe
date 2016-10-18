@@ -4,8 +4,10 @@
 * 登录系统用的是自己写的第三方验证系统(sso.mlife.top)
 * 前端采用的框架也是自己写的
 ## 示例截图
-![http://www.mlife.top/project/genealogy-fe/demo.jpg]
+![image](http://www.mlife.top/project/genealogy-fe/demo.jpg)
+
 ## 测试账号
-用户名: 846952193@qq.com
-密码: test123
-地址: http://www.mlife.top/project/genealogy-fe/index.html
+
+* 用户名: 846952193@qq.com
+* 密码: test123
+* 地址: http://www.mlife.top/project/genealogy-fe/index.html
