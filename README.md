@@ -8,6 +8,6 @@
 
 ## 测试账号
 
-用户名: 846952193@qq.com
-密码: test123
-地址: http://www.mlife.top/project/genealogy-fe/index.html
+* 用户名: 846952193@qq.com
+* 密码: test123
+* 地址: http://www.mlife.top/project/genealogy-fe/index.html
